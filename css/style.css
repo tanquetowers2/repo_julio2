@@ -143,7 +143,7 @@ body {
 .header__contacto {
   width: 100%;
   height: 100vh;
-  background-image: url(../elementos/fondonegro.jpg);
+  background-image: url(/elementos/fondonegro.jpg);
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -160,21 +160,21 @@ body {
 .header__inscribite {
   width: 100%;
   height: 600px;
-  background-image: url(../elementos/fondonegro.jpg);
+  background-image: url(/elementos/fondonegro.jpg);
   background-size: cover;
   background-repeat: no-repeat; }
 
 .header__info {
   width: 100%;
   height: 600px;
-  background-image: url(../elementos/fondonegro.jpg);
+  background-image: url(/elementos/fondonegro.jpg);
   background-size: cover;
   background-repeat: no-repeat; }
 
 header {
   width: 100%;
   height: 100vh;
-  background-image: url(../elementos/bkn2.png);
+  background-image: url(/elementos/bkn2.png);
   background-size: cover;
   background-repeat: no-repeat; }
   header nav {
