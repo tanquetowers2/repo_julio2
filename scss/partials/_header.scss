@@ -9,36 +9,18 @@ body{
 }
 
 .header--descargar__app{
-  width: 100%;
-  height: 100vh;
-  background-image: url(/elementos/fondonegro.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-
+  @include header__a;
+  @include fondo__negro;
 }
-
-.descargar__app__button{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-}
-
 .header__contacto{
-  width: 100%;
-  height: 100vh;
-  background-image: url(/elementos/fondonegro.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  @include header__a;
+  @include fondo__negro;
+
 }
-
-
 .header__comunidad {
-  width: 100%;
-  height: 100vh;
-  background-image: url(../elementos/fondonegro.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  @include header__a;
+  
+
 
   .form-check-label{
     display: flex;
@@ -48,38 +30,38 @@ body{
 }
 
 .header__inscribite{
-  width: 100%;
-  height: 600px;
-  background-image: url(../elementos/fondonegro.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+@include header__b
+@include fondo__negro;
+
 }
 
 .header__info{
-  width: 100%;
-  height: 600px;
-  background-image: url(/elementos/fondonegro.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+@include header__b;
+@include fondo__negro;
+
 }
 
 header{
-  width: 100%;
-  height: 100vh;
-  background-image: url(../elementos/bkn2.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+@include header__a
+background-image: url(../elementos/bkn2.png);
 
   nav{
     height: 100px;
     width: 100%;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
    
   
   }
 
+}
+
+.descargar__app__button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
 
   .logo{
@@ -93,7 +75,6 @@ header{
     margin-right: 20px;
     cursor: pointer;
     
-
   }
 
   .button__home{
@@ -101,7 +82,6 @@ header{
   }
 
   .nav-menu{
-    
     position: fixed;
     width: 100%;
     height: 0vh;
@@ -110,10 +90,7 @@ header{
     text-align: center;
     transition: all 1s;
     
-    
   }
-
-
   .nav-menu li{
     display: none;
     line-height: 30px;
@@ -121,7 +98,6 @@ header{
     transition: all 1s;
     
   }
-
 
   .nav-menu li a{
     color: white;
@@ -131,10 +107,8 @@ header{
     text-decoration: none;
   }
 
-
-
   .nav-menu li a.active, .nav-menu li a:hover{
-    color: rgb(248, 8, 8);
+    color: map-get($colores, "atrox");
     transition: .3s;
   }
 
@@ -154,10 +128,6 @@ header{
 }
 
 
-
-
-
-
 .banner__text{
   padding: 0 30px;
   margin-top: 150px;
@@ -171,7 +141,7 @@ header{
   margin-bottom: 30px;
 }
 .banner__text span{
-  color: rgb(248, 8, 8);
+  color: map-get($colores, "atrox")
 }
 
 .banner__text h2 {
@@ -182,31 +152,27 @@ font-weight: 600;
 
 
 .button1 {
-  margin-right: 40px;
-  padding: 10px 30px;
-  background-color:rgb(248, 8, 8);
+@include btn__a;
+  background-color: map-get($colores, "atrox");
   color: #fff;
-  border-radius: 5px;
-  text-decoration: none;
+
 }
 .button1:hover{
   background-color: #fff;
-  color: rgb(248, 8, 8);
+  color: map-get($colores, "atrox");
   transition: .5s;
 
 }
 
 .button2 {
-  margin-right: 40px;
-  padding: 10px 30px;
+  @include btn__a;
   background-color:#fff;
-  color: rgb(248, 8, 8);
-  border-radius: 5px;
-  text-decoration: none;
+  color: map-get($colores, "atrox")
+
 }
 .button2:hover {
-  background-color: rgb(248, 8, 8);
-  color: #fff;
+  background-color: map-get($colores, "atrox");
+  color: map-get($colores, "txt");
   transition: .5s;
 
 }

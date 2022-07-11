@@ -5,42 +5,11 @@
   padding: 0;
   box-sizing: border-box; }
 
-#footer__home {
-  display: inline-flex;
-  text-decoration: none; }
-
-#info-body {
-  background-color: black; }
-
-.anexo {
-  margin-left: 30%; }
-
-#estamosen {
-  color: crimson;
-  padding-left: 25%;
-  background-color: black; }
-
-.iframe {
-  background-color: black;
-  padding-top: 5%;
-  padding-left: 25%;
-  padding-bottom: 60px;
-  align-items: center; }
-
 .contenedor {
   width: 90%;
   margin: auto;
   overflow: hidden;
   padding: 60px 0; }
-
-h1 {
-  font-size: 40px; }
-
-.h4-info {
-  color: black; }
-
-h1 {
-  font-size: 40px; }
 
 .contenedor-textos {
   padding: 0px;
@@ -49,6 +18,15 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center; }
+
+h1 {
+  font-size: 40px; }
+
+h2 {
+  padding-bottom: 50px; }
+
+.h4-info {
+  color: black; }
 
 .parrafo-info {
   color: black; }
@@ -62,26 +40,20 @@ body {
 .header--descargar__app {
   width: 100%;
   height: 100vh;
-  background-image: url(/elementos/fondonegro.jpg);
   background-size: cover;
-  background-repeat: no-repeat; }
-
-.descargar__app__button {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
+  background-repeat: no-repeat;
+  background-image: url(../elementos/fondonegro.jpg); }
 
 .header__contacto {
   width: 100%;
   height: 100vh;
-  background-image: url(/elementos/fondonegro.jpg);
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-image: url(../elementos/fondonegro.jpg); }
 
 .header__comunidad {
   width: 100%;
   height: 100vh;
-  background-image: url(../elementos/fondonegro.jpg);
   background-size: cover;
   background-repeat: no-repeat; }
   .header__comunidad .form-check-label {
@@ -91,29 +63,34 @@ body {
 .header__inscribite {
   width: 100%;
   height: 600px;
-  background-image: url(../elementos/fondonegro.jpg);
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-image: url(../elementos/fondonegro.jpg); }
 
 .header__info {
   width: 100%;
   height: 600px;
-  background-image: url(/elementos/fondonegro.jpg);
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-image: url(../elementos/fondonegro.jpg); }
 
 header {
   width: 100%;
   height: 100vh;
-  background-image: url(../elementos/bkn2.png);
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-image: url(../elementos/bkn2.png); }
   header nav {
     height: 100px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center; }
+
+.descargar__app__button {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
 
 .logo {
   width: 150px;
@@ -151,7 +128,7 @@ header {
   text-decoration: none; }
 
 .nav-menu li a.active, .nav-menu li a:hover {
-  color: #f80808;
+  color: #fa3d0e;
   transition: .3s; }
 
 #check {
@@ -174,7 +151,7 @@ header {
   margin-bottom: 30px; }
 
 .banner__text span {
-  color: #f80808; }
+  color: #fa3d0e; }
 
 .banner__text h2 {
   font-size: 30px;
@@ -183,27 +160,27 @@ header {
 .button1 {
   margin-right: 40px;
   padding: 10px 30px;
-  background-color: #f80808;
-  color: #fff;
   border-radius: 5px;
-  text-decoration: none; }
+  text-decoration: none;
+  background-color: #fa3d0e;
+  color: #fff; }
 
 .button1:hover {
   background-color: #fff;
-  color: #f80808;
+  color: #fa3d0e;
   transition: .5s; }
 
 .button2 {
   margin-right: 40px;
   padding: 10px 30px;
-  background-color: #fff;
-  color: #f80808;
   border-radius: 5px;
-  text-decoration: none; }
+  text-decoration: none;
+  background-color: #fff;
+  color: #fa3d0e; }
 
 .button2:hover {
-  background-color: #f80808;
-  color: #fff;
+  background-color: #fa3d0e;
+  color: white;
   transition: .5s; }
 
 @media screen and (max-width: 530px) {
@@ -245,7 +222,10 @@ header {
     display: none; } }
 
 .iframe {
-  padding-left: 400px;
-  padding-right: 300px; }
+  background-color: black;
+  padding-top: 5%;
+  padding-right: 300px;
+  padding-bottom: 60px;
+  padding-left: 400px; }
 
 /*$mapa: (keys: value)*/
