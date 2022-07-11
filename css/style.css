@@ -59,6 +59,10 @@ body {
 .header__comunidad {
   width: 100%;
   height: 100vh;
+<<<<<<< HEAD
+=======
+  background-image: url(../elementos/fondonegro.jpg);
+>>>>>>> 0f697b10da1bcd77b14a44c9270d0dacf2011be7
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../elementos/fondonegro.jpg); }
